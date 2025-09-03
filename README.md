@@ -5,7 +5,7 @@
 
 <br/><br/>
 
-<a href="#"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-XXXXX.YYYYY-b31b1b.svg"></a> <a href="#"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-<SmellAI>-green.svg"></a> <a href="#"><img alt="Project"> [![Project Page](https://img.shields.io/badge/Project-Website-1f6feb.svg)](https://Alistair0909.github.io/SmellAI/) </a>
+<a href="#"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-XXXXX.YYYYY-b31b1b.svg"></a> <a href="#"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-<SmellAI>-green.svg"></a> <a href="#"><img alt="Project">[![Project Page](https://img.shields.io/badge/Project-Website-1f6feb.svg)](https://Alistair0909.github.io/SmellAI/) </a>
 
 This repository is the official implementation of <b>Awesome SmellAI</b>, an end-to-end pipeline that <b>captures</b> odors with an e-nose, <b>predicts</b> their composition with a ML model (<i>ScentRatioNet</i>), and <b>releases</b> reconstructed scents via a 12-channel wearable (Scentrealm Neckwear) over BLE — all in real time.
 
