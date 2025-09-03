@@ -182,9 +182,9 @@ We build upon open-source communities in time-series learning, embedded sensing,
   year    = {2025},
   note    = {arXiv:XXXXX.YYYYY}
 }
-[![Project Page](https://img.shields.io/badge/Project-Website-1f6feb.svg)](https://Alistair0909.github.io/SmellAI/)
-```
 
+```
+[![Project Page](https://img.shields.io/badge/Project-Website-1f6feb.svg)](https://Alistair0909.github.io/SmellAI/)
 ---
 
 > **Placeholders to replace before publishing**
