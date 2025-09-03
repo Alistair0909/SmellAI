@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Awesome SmellAI: Cracking the Code of Everyday Odors – From Capture to Release</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="End-to-end ML pipeline for odor capture, recognition, and release on a wearable 12-channel scent device."/>
+  <meta property="og:title" content="Awesome SmellAI" />
+  <meta property="og:description" content="End-to-end ML pipeline for odor capture, recognition, and release." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="__assets__/logos/logo.png" />
+  <link rel="icon" href="__assets__/logos/logo.png" />
+  <style>
+    :root{
+      --bg:#0b0d12; --panel:#121520; --soft:#1b2030; --text:#eaeefb; --muted:#aeb6cf; --accent:#62a3ff; --accent2:#9f73ff;
+      --border:rgba(255,255,255,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{opacity:.9}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    .hero{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;padding:24px 0 10px}
+    .hero h1{margin:6px 0 0;font-size:32px;line-height:1.2}
+    .authors{color:var(--muted);font-size:14px}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:10px 0 16px}
+    .badge img{height:22px;vertical-align:middle;border-radius:6px}
+    .panel{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px}
+    h2{font-size:22px;margin:24px 0 12px}
+    .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .thumb{background:var(--soft);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    .thumb img{width:100%;display:block}
+    .caption{font-size:13px;color:var(--muted);text-align:center;margin-top:6px}
+    code,pre{background:#0e1220;border:1px solid var(--border);border-radius:10px;color:#d8e0ff}
+    pre{padding:12px;overflow:auto}
+    .cols{display:grid;grid-template-columns:1.2fr 1fr;gap:16px}
+    .foot{color:#9aa3bf;font-size:13px;text-align:center;margin:24px 0 8px}
+    @media (max-width:900px){.grid-4{grid-template-columns:repeat(2,1fr)} .cols{grid-template-columns:1fr}}
+    @media (max-width:520px){.grid-4{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="hero panel">
+      <img src="__assets__/logos/logo.png" alt="logo" style="height:54px;opacity:.95"/>
+      <h1>Awesome SmellAI: Cracking the Code of Everyday Odors – From Capture to Release</h1>
+      <div class="authors">
+        <a href="https://github.com/Alistair0909" target="_blank">Alistair Pernigo</a> (MIT Media Lab) &nbsp;•&nbsp;
+        <a href="https://github.com/KaichenZhou" target="_blank">Kaichen Zhou</a> (MIT) &nbsp;•&nbsp;
+        <a href="https://github.com/yunge-wen" target="_blank">Yunge Wen</a> (NYU) &nbsp;•&nbsp;
+        <a href="https://github.com/jasbrooks" target="_blank">Jas Brooks</a> (MIT CSAIL) &nbsp;•&nbsp;
+        <a href="https://github.com/pliang279" target="_blank">Paul Pu Liang</a> (MIT)
+      </div>
+      <div class="badges">
+        <a class="badge" href="#" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-XXXX.YYYYY-b31b1b.svg"/></a>
+        <a class="badge" href="#" target="_blank"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-<SmellAI>-2ea44f.svg"/></a>
+        <a class="badge" href="https://github.com/Alistair0909/SmellAI" target="_blank"><img alt="Code" src="https://img.shields.io/badge/Code-GitHub-24292e.svg"/></a>
+        <a class="badge" href="#" target="_blank"><img alt="Project" src="https://img.shields.io/badge/Project-Website-1f6feb.svg"/></a>
+      </div>
+      <div style="max-width:850px">
+        <p style="margin:0">
+          We present a real-time, end-to-end pipeline for <b>odor capture → recognition → release</b>.
+          Odors are captured via a 4-channel e-nose (NO₂ / C₂H₅OH / VOC / CO), interpreted by
+          <b>ScentRatioNet</b> into mixtures over <b>12 base scents</b>, and released on a wearable
+          <b>12-channel Scentrealm neckwear</b> over BLE.
+        </p>
+      </div>
+    </div>
+
+    <h2>Gallery</h2>
+    <div class="panel">
+      <div class="grid-4">
+        <div class="thumb"><img src="__assets__/videos/realtime_plot.gif" alt="Realtime plot"/></div>
+        <div class="thumb"><img src="__assets__/videos/prediction_bars.gif" alt="Prediction bars"/></div>
+        <div class="thumb"><img src="__assets__/videos/ble_release.gif" alt="BLE Release"/></div>
+        <div class="thumb"><img src="__assets__/videos/mix_demo.gif" alt="Mixture demo"/></div>
+      </div>
+      <div class="grid-2" style="margin-top:10px">
+        <div class="caption">“60 s capture @10 Hz from Wio + GMXXX (NO₂ / C₂H₅OH / VOC / CO)”</div>
+        <div class="caption">“Release on Scentrealm neckwear – channels mapped from predicted weights”</div>
+      </div>
+    </div>
+
+    <h2>Abstract</h2>
+    <div class="panel">
+      Artificial intelligence has transformed HCI in vision and sound, yet smell remains underexplored.
+      We present the first machine learning–driven system that recognizes and generates everyday odors
+      in real time through a portable wearable device. Our pipeline captures odor molecules with an electronic nose,
+      processes them with <b>ScentRatioNet</b> to predict composition across <b>12 base classes</b>, and reconstructs
+      target smells with a wearable generator. We evaluate with computational benchmarks and human perceptual studies,
+      showing reliable performance on mixtures, and provide design guidelines for future olfactory interaction.
+    </div>
+
+    <h2>Steps for Inference</h2>
+    <div class="panel cols">
+      <div>
+        <h3>Prepare Environment</h3>
+        <pre><code>git clone https://github.com/Alistair0909/SmellAI.git
+cd SmellAI
+
+conda create -n smellai python=3.10 -y
+conda activate smellai
+pip install -r requirements.txt
+# minimal:
+# pip install numpy pandas matplotlib joblib pyserial torch torchvision torchaudio bleak crcmod</code></pre>
+
+        <h3>Place Pretrained Files</h3>
+        <pre><code>mkdir -p models
+# Copy your files:
+# models/mixture_kl_model.pth
+# models/channel_scalers_4.joblib</code></pre>
+      </div>
+      <div>
+        <h3>Generate Weights</h3>
+        <pre><code># Windows example (COM7, 60 s capture, live plot)
+python scripts/live_capture_to_weights.py ^
+  --port COM7 --baud 115200 --duration 60 ^
+  --outdir "data\output" --label "Orange" ^
+  --model-path "models\mixture_kl_model.pth" ^
+  --scalers-path "models\channel_scalers_4.joblib" ^
+  --win-len 600 --hop-len 300 ^
+  --topk 6 --temperature 1.0 ^
+  --plot-every 2 --allow-pad</code></pre>
+        <p style="margin-top:-4px;color:var(--muted);font-size:14px">
+          Outputs: <code>predictions.csv</code>, <code>device_weights_full/topk.(json|csv)</code>, and plots.
+        </p>
+      </div>
+    </div>
+
+    <h2>BLE Release (Scentrealm Neckwear)</h2>
+    <div class="panel cols">
+      <div>
+        <h3>Discover & Smoke Test</h3>
+        <pre><code># Check services (Nordic UART: 6e4000**)
+python scripts/ble_list_services.py --address 08:F9:E0:E4:57:FE
+
+# Quick test (try several channels, adjust handset gain)
+python scripts/ble_smoke_test.py --address 08:F9:E0:E4:57:FE ^
+  --channel 8 --seconds 8 --handset 230</code></pre>
+      </div>
+      <div>
+        <h3>Send Predicted Weights</h3>
+        <pre><code># Map top-k weights → seconds (min 1 s per channel)
+python scripts/ble_send_weights.py ^
+  --address 08:F9:E0:E4:57:FE ^
+  --json "data\output\device_weights_topk.json" ^
+  --total-seconds 20 --min-per-channel 1 --handset 230</code></pre>
+        <p style="margin-top:-4px;color:var(--muted);font-size:14px">
+          If nothing releases: try a different <b>channel</b>, raise <b>--handset</b> (240–255), confirm cartridges & battery.
+        </p>
+      </div>
+    </div>
+
+    <h2>Steps for Training</h2>
+    <div class="panel">
+      <p><b>Data:</b> 4-channel time-series CSV @10 Hz; clean baseline/exposure/recovery; labels across 12 base classes + mixtures.</p>
+      <pre><code>python train.py --config configs/smellai.yaml
+
+# Example config
+train_data:
+  csv_root:        data/train_csv/
+  win_len:         600
+  hop_len:         300
+  normalize:       per_channel
+model:
+  arch:            ScentRatioNet
+  n_channels:      4
+  n_classes:       12
+opt:
+  lr:              3e-4
+  batch_size:      32
+  epochs:          100</code></pre>
+    </div>
+
+    <h2>BibTeX</h2>
+    <div class="panel">
+<pre><code>@article{Pernigo2025AwesomeSmellAI,
+  title   = {Awesome SmellAI: Cracking the Code of Everyday Odors – From Capture to Release},
+  author  = {Pernigo, Alistair and Zhou, Kaichen and Wen, Yunge and Brooks, Jas and Liang, Paul Pu},
+  journal = {Proceedings of the ACM on Human-Computer Interaction},
+  year    = {2025},
+  note    = {arXiv:XXXX.YYYYY}
+}</code></pre>
+    </div>
+
+    <div class="foot">© 2025 SmellAI Authors • Built with ♥ on GitHub Pages</div>
+  </div>
+</body>
+</html>
