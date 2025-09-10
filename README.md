@@ -31,14 +31,6 @@ More results and videos are on our **Project Page**.
 
 Model: <b>ScentRatioNet</b> (4-channel time-series → 12-class mixing ratios)
 
-## To Do List
-
-* [ ] Release gradio demo
-* [x] Release weights
-* [x] Release code
-* [x] Release paper
-* [x] Release dataset
-
 ## Steps for Inference
 
 ### Prepare Environment
