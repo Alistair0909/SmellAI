@@ -1,5 +1,5 @@
 <div align="center">
-<h3>Awesome SmellAI: Cracking the Code of Everyday Odors – From Capture to Release</h3>
+<h3>Awesome SmellAI: .....</h3>
 
 <a href="https://github.com/AlistairPernigo" target="_blank">Alistair Pernigo</a> (MIT) •  <a href="https://github.com/yunge-wen" target="_blank">Yunge Wen</a> (NYU) • <a href="https://github.com/DeweiFeng" target="_blank">Dewei Feng</a> (MIT) • <a href="https://github.com/ddvd233" target="_blank">David Dai</a> (MIT) • <a href="https://github.com/KaichenZhou" target="_blank">Kaichen Zhou</a> (MIT) • <a href="https://github.com/jasbrooks" target="_blank">Jas Brooks</a> (MIT CSAIL) • <a href="https://github.com/pliang279" target="_blank">Paul Pu Liang</a> (MIT)  Dewei Feng David Dai
 
