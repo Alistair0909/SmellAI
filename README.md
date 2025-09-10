@@ -367,3 +367,101 @@ python train.py --config configs/smellai.yaml
 40. Severino Muñoz-Aguirre, Akihito Yoshino, Takamichi Nakamoto, and Toyosaka Moriizumi. 2007. Odor Approximation of Fruit Flavors Using a QCM Odor Sensing System. *Sensors and Actuators B: Chemical* 123, 2 (May 2007), 1101–1106. https://doi.org/10.1016/j.snb.2006.11.025
 41. Takamichi Nakamoto. 2016. Olfactory Display and Odor Recorder. In *Essentials of Machine Olfaction and Taste* (1 ed.), Takamichi Nakamoto (Ed.). Wiley, 247–314. https://doi.org/10.1002/9781118768495.ch7
 42. T. Nakamoto, M. Ohno, and Y. Nihei. 2012. Odor Approximation Using Mass Spectrometry. *IEEE Sensors Journal* 12, 11 (Nov. 2012), 3225–3231. https://doi.org/10.1109/JSEN.2012.2190506
+43. 
+
+
+## Olfactory Stimulation Approaches in HCI
+
+> Tabella in stile **Awesome** con colonne **Preview | Title | Publication | Links**.  
+> Sostituisci i file in `assets/img/*.jpg` con le tue anteprime (screenshot, figure, foto del prototipo).
+
+---
+
+### Chemical — Wearables & Ambient Delivery
+
+| Preview | Title | Publication | Links |
+|:---:|:---|:---:|:---:|
+| <img src="assets/img/ezzence.jpg" width="300"> | Ezzence: A Modular Scent Wearable to Improve Wellbeing in Home Sleep Environments | Frontiers in Psychology 2022 | [Paper](https://doi.org/10.3389/fpsyg.2022.791768) |
+| <img src="assets/img/essence.jpg" width="300"> | Essence: Olfactory Interfaces for Unconscious Influence of Mood and Cognitive Performance | CHI 2017 | [Paper](https://doi.org/10.1145/3025453.3026004) |
+| <img src="assets/img/inscent.jpg" width="300"> | inScent: A Wearable Olfactory Display as an Amplification for Mobile Notifications | ISWC 2017 | [Paper](https://doi.org/10.1145/3123021.3123035) |
+| <img src="assets/img/smellomessage.jpg" width="300"> | Smell-O-Message: Integration of Olfactory Notifications into a Messaging Application | ICMI 2018 | [Paper](https://doi.org/10.1145/3242969.3242975) |
+| <img src="assets/img/scent_collar.jpg" width="300"> | The Scent Collar: A Wearable Scent Delivery Device | Tech Report 2012 | [PDF](https://ict.usc.edu/pubs/The%20Scent%20Collar.pdf) |
+| <img src="assets/img/portable_multichannel.jpg" width="300"> | Development of a Portable, Multichannel Olfactory Display Transducer | IEEE Sensors Journal 2018 | [Paper](https://doi.org/10.1109/JSEN.2018.2832284) |
+
+---
+
+### Chemical — Airstreams, Fans, Ultrasound & Atomizers
+
+| Preview | Title | Publication | Links |
+|:---:|:---|:---:|:---:|
+| <img src="assets/img/ultrasound_fragrance.jpg" width="300"> | Midair Ultrasound Fragrance Rendering | IEEE TVCG 2018 | [Paper](https://doi.org/10.1109/TVCG.2018.2794118) |
+| <img src="assets/img/back_to_mouth.jpg" width="300"> | Back to the Mouth (gustatory/airflow interface) | SIGGRAPH 2009 (Emerging Tech) | [Paper](https://doi.org/10.1145/1597956.1597960) |
+| <img src="assets/img/hartmann_odor_show.jpg" width="300"> | A Trip to Japan in Sixteen Minutes (early olfactory show) | 1902 | [Entry](https://en.wikipedia.org/wiki/Sadakichi_Hartmann) |
+
+---
+
+### Electrical / Chemosthetic — Trigeminal Stimulation
+
+| Preview | Title | Publication | Links |
+|:---:|:---|:---:|:---:|
+| <img src="assets/img/trigeminal_temp.jpg" width="300"> | Trigeminal-Based Temperature Illusions | CHI 2020 | [Paper](https://doi.org/10.1145/3313831.3376806) |
+| <img src="assets/img/stereo_smell.jpg" width="300"> | Stereo-Smell via Electrical Trigeminal Stimulation | CHI 2021 | [Paper](https://doi.org/10.1145/3411764.3445300) |
+| <img src="assets/img/sensorama.jpg" width="300"> | Sensorama Simulator (multisensory cinema incl. scent) | 1962 | [Entry](https://en.wikipedia.org/wiki/Sensorama) |
+
+---
+
+### XR & Interaction
+
+| Preview | Title | Publication | Links |
+|:---:|:---|:---:|:---:|
+| <img src="assets/img/vr_gestures_olfactory.jpg" width="300"> | Mid-Air Gestures for Proactive Olfactory Interactions in VR | CHI 2025 | [Paper](https://doi.org/10.1145/3706598.3713964) |
+| <img src="assets/img/scented_days.jpg" width="300"> | Scented Days: Exploring the Capacity of Smell Narratives | CHI PLAY Companion 2024 | [Paper](https://doi.org/10.1145/3665463.3678844) |
+| <img src="assets/img/aromabite.jpg" width="300"> | AromaBite: Edible Retronasal Scent Release | CHI EA 2025 | [Paper](https://doi.org/10.1145/3706599.3720200) |
+
+---
+
+### Sensing & Modeling — E-Nose, Sensors, Mass-Spec, Cheminformatics
+
+| Preview | Title | Publication | Links |
+|:---:|:---|:---:|:---:|
+| <img src="assets/img/low_cost_enose_wine.jpg" width="300"> | Low-Cost Electronic Nose for Wine Variety Identification | Agronomy 2022 | [Paper](https://doi.org/10.3390/agronomy12112627) |
+| <img src="assets/img/whats_cooking.jpg" width="300"> | What’s Cooking? Olfactory Sensing Using Off-the-Shelf Components | UIST Adjunct 2022 | [Paper](https://doi.org/10.1145/3526114.3558687) |
+| <img src="assets/img/milk_enose.jpg" width="300"> | Milk Source Identification and Quality Estimation (e-nose + ML) | Sensors 2020 | [Paper](https://doi.org/10.3390/s20154238) |
+| <img src="assets/img/wine_saw.jpg" width="300"> | Wine Classification with a ZnO SAW Sensor Array | Sensors & Actuators B 2006 | [Paper](https://doi.org/10.1016/j.snb.2006.02.014) |
+| <img src="assets/img/mems_mox.jpg" width="300"> | Sensitive & Low-Power MOX Gas Sensors with MEMS Heater | ACS Omega 2021 | [Paper](https://doi.org/10.1021/acsomega.0c05532) |
+| <img src="assets/img/qcm_fruit.jpg" width="300"> | Odor Approximation of Fruit Flavors Using a QCM System | Sensors & Actuators B 2007 | [Paper](https://doi.org/10.1016/j.snb.2006.11.025) |
+| <img src="assets/img/mass_spec_odors.jpg" width="300"> | Odor Approximation Using Mass Spectrometry | IEEE Sensors Journal 2012 | [Paper](https://doi.org/10.1109/JSEN.2012.2190506) |
+| <img src="assets/img/olfactory_display_book.jpg" width="300"> | Olfactory Display and Odor Recorder (book chapter) | Wiley 2016 | [Chapter](https://doi.org/10.1002/9781118768495.ch7) |
+| <img src="assets/img/cheminformatics_creation.jpg" width="300"> | Automatic Scent Creation by Cheminformatics Method | Scientific Reports 2024 | [Paper](https://doi.org/10.1038/s41598-024-82654-7) |
+| <img src="assets/img/principal_odor_map.jpg" width="300"> | A Principal Odor Map Unifies Diverse Tasks in Olfactory Perception | Science 2023 | [Paper](https://doi.org/10.1126/science.ade4401) |
+| <img src="assets/img/smellnet.jpg" width="300"> | SMELLNET: A Large-scale Dataset for Real-world Smell Recognition | arXiv 2025 | [Paper](https://doi.org/10.48550/arXiv.2506.00239) |
+
+---
+
+### Human Studies, Psychology & Society
+
+| Preview | Title | Publication | Links |
+|:---:|:---|:---:|:---:|
+| <img src="assets/img/quintessence.jpg" width="300"> | QuintEssence: The Power of Smell on Emotions, Memories, and Body Image | TOCHI 2022 | [Paper](https://doi.org/10.1145/3526950) |
+| <img src="assets/img/scent_collaboration.jpg" width="300"> | The Scent of Collaboration: Effect of Smell on Social Interactions | CHI EA 2022 | [Paper](https://doi.org/10.1145/3491101.3519632) |
+| <img src="assets/img/handshake_elife.jpg" width="300"> | A Social Chemosignaling Function for Human Handshaking | eLife 2015 | [Paper](https://doi.org/10.7554/eLife.05154) |
+| <img src="assets/img/odor_memory_review.jpg" width="300"> | Odor Memory: Review and Analysis | Psychonomic Bulletin & Review 1996 | [Paper](https://doi.org/10.3758/BF03210754) |
+| <img src="assets/img/thematic_analysis.jpg" width="300"> | Using Thematic Analysis in Psychology | Qual. Research in Psychology 2006 | [Paper](https://doi.org/10.1191/1478088706qp063oa) |
+
+---
+
+### Citizen Science & Accessibility
+
+| Preview | Title | Publication | Links |
+|:---:|:---|:---:|:---:|
+| <img src="assets/img/smell_pittsburgh.jpg" width="300"> | Smell Pittsburgh: Community-Empowered Mobile Smell Reporting | IUI 2019 | [Paper](https://doi.org/10.1145/3301275.3302293) |
+| <img src="assets/img/beauty_accessibility.jpg" width="300"> | Blind Accessibility of Beauty Products (review/video) | 2021 | [Video/Article](https://www.youtube.com/@MollyBurkeOfficial) |
+
+---
+
+### Bonus: Tabella riassuntiva (immagine)
+
+<p align="center">
+  <img src="assets/img/olfactory_interfaces.png" width="720" alt="Olfactory stimulation approaches used in HCI">
+</p>
+
